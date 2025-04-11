@@ -67,6 +67,10 @@ export const postType = defineType({
       name: 'publishedAt',
       type: 'datetime',
       group: 'details',
+      options: {
+        dateFormat: 'ddd, MMMM Do YYYY',
+        timeFormat: 'HH:mm',
+      },
     }),
   ],
   preview: {
